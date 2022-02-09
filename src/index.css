@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+}
+
+.borderSpace {
+  border-spacing: 1.3rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .hide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .hide__mobile {
+    display: none;
+  }
+}
